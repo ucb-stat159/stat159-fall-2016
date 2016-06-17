@@ -1,0 +1,47 @@
+---
+title: "Lab 3: Git Basic Workflow"
+subtitle: "Stat 159, Fall 2016"
+author: "Gaston Sanchez"
+output: html_document
+---
+
+> ### Learning Objectives
+>
+> * To gain familiarity with Git
+> * Configuration settings
+> * Understand the basic workflow
+
+-----
+
+### What is Git?
+
+Git is an open-source _Version Control Software_, to manage changes to source code and text files. 
+The purpose of Git is to __keep track of changes that you make to files and directories__, whether those changes are adding, editing, deleting, or moving files. For these reasons, Git is an excellent tool to manage a project, or a set of files, as they change over time.
+
+-----
+
+## Practice
+
+Work on the [Version Control with Git](http://swcarpentry.github.io/git-novice/) 
+workshop by _Software Carpentry_
+
+1. [Automated Version Control](http://swcarpentry.github.io/git-novice/01-basics.html)
+2. [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup.html)
+3. [Creating a Repository](http://swcarpentry.github.io/git-novice/03-create.html)
+4. [Tracking Changes](http://swcarpentry.github.io/git-novice/04-changes.html)
+5. [Exploring History](http://swcarpentry.github.io/git-novice/05-history.html)
+6. [Ignoring Things](http://swcarpentry.github.io/git-novice/06-ignore.html)
+7. [Remotes in GitHub](http://swcarpentry.github.io/git-novice/07-github.html)
+
+
+-----
+
+### References
+
+Part 1 - The Basics from the ebook [Learn Version Control with Git](https://www.git-tower.com/learn/git/ebook/en/command-line/introduction) by [Tower](https://www.git-tower.com/)
+
+Chapters 1 __Getting Started__, and sections 2.1 to 2.5 in chapter 2 __Git Basics__, of the [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub.
+
+[Github Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+-----
