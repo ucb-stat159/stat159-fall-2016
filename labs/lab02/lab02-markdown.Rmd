@@ -1,0 +1,115 @@
+---
+title: "Lab 2: Markdown and Pandoc"
+subtitle: "Stat 159, Fall 2016"
+author: "Gaston Sanchez"
+output: html_document
+---
+
+> ### Learning Objectives
+>
+> * Gain familiarity with the Markdown syntax
+> * Write simple documents in Markdown
+> * Learn how to convert markdown documents into other formats with __pandoc__
+
+-----
+
+## What is Markdown?
+
+Markdown is a lightweight markup language, originally created by 
+[John Gruber](http://daringfireball.net/) and Aaron Swartz allowing people 
+"to write using an easy-to-read, easy-to-write plain text format, then convert 
+it to structurally valid XHTML (or HTML)". 
+
+More technical details about the project [Markdown](http://daringfireball.net/projects/markdown/)
+
+
+
+### Markdown Tutorial
+
+Work on this [Interactive online markdown tutorial](http://www.markdowntutorial.com/)
+
+
+### More practice
+
+If you are not familiar with Markdown, you can try using one of the several 
+online Markdown editors and parsers such as:
+
+- [markdown live preview](http://markdownlivepreview.com/)
+- [stackedit](https://stackedit.io/editor)
+- [dillinger](http://dillinger.io/)
+
+These are nice tools that will allow you to practice the syntax, while 
+getting an idea of how the output may look like. 
+There are also markdown editors that you can download:
+
+- All users: [haroopad](http://pad.haroopress.com/user.html#download)
+- Mac users: [Macdown](http://macdown.uranusjr.com/)
+- Windows users: [Markdownpad](http://markdownpad.com/) 
+
+-----
+
+We'll use [markdown live preview](http://markdownlivepreview.com/) for
+this session.
+
+
+Write some content in Markdown that includes:
+
+1. headings of different levels
+2. words in italics
+3. words in bold
+4. words in both italics and bold
+5. links (for urls)
+6. reference style links (cross-links)
+7. links for images
+8. unordered lists
+9. ordered lists
+10. lists with subitems
+11. horizontal rules 
+12. table
+13. blockquotes
+14. code blocks
+15. inline code
+
+
+-----
+
+## Pandoc
+
+[Pandoc](http://pandoc.org/) is a unviersal document converter. It allows you
+to convert files from one markup format into another.
+
+- Create a new directory `stat159-markdown`, and `cd` into it.
+- Create a text file, e.g. `document.md`, 
+- Include all the content from your text in [http://markdownlivepreview.com](http://markdownlivepreview.com) in your new file `document.md`.
+
+
+### Convert your document into html
+
+To convert your document into html, you will have to use __pandoc__.
+From the command line, type:
+
+```bash
+# from markdown to html
+pandoc -s document.md -o document.html
+```
+
+Try converting your markdown file to pdf (you need to have latex installed!):
+
+```bash
+# from markdown to pdf
+pandoc document.md --latex-engine=xelatex -o document.pdf
+
+# alternatively
+pandoc document.md --latex-engine=pdflatex -o document.pdf
+```
+
+-----
+
+## Resources
+
+Here's a list with some resources that you may find useful:
+
+- [Mastering Markdown (Github guide)](https://guides.github.com/features/mastering-markdown/)
+- [Pandoc Demos](http://pandoc.org/demos.html)
+
+-----
