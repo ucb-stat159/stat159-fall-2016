@@ -1,0 +1,32 @@
+---
+title: "Lab 4: Makefile Basics"
+subtitle: "Stat 159, Fall 2016"
+author: "Gaston Sanchez"
+output: html_document
+---
+
+> ### Learning Objectives
+>
+> * Introduction to GNU Make
+> * Understand: target, dependency, recipe
+> * Write simple makefile scripts
+> * Makefile for markdown with pandoc
+
+-----
+
+
+### GNU Make
+
+[GNU Make](https://www.gnu.org/software/make/), commonly known as __make__,
+is a Unix tool that is part of the [GNU Project](https://www.gnu.org/software/).
+
+Read the tutorial: [https://github.com/unix-tools/tutorial-makefiles](https://github.com/unix-tools/tutorial-makefiles)
+
+Go over the first four parts:
+
+1. [Introduction](https://github.com/unix-tools/tutorial-makefiles/blob/master/01-introduction.Rmd)
+2. [Various dependencies](https://github.com/unix-tools/tutorial-makefiles/blob/master/02-various-dependencies.Rmd)
+3. [Various targets](https://github.com/unix-tools/tutorial-makefiles/blob/master/03-various-targets.Rmd)
+4. [Dependent targets](https://github.com/unix-tools/tutorial-makefiles/blob/master/04-dependent-targets.Rmd)
+
+-----
