@@ -1,0 +1,49 @@
+---
+title: "HW03 - Stat 159, Fall 2016"
+output: html_document
+---
+
+> ### Objectives
+> - Work with Git and Github
+> - Keep working with Markdown
+> - Keep using pandoc
+> - Think about a project's structure
+
+
+Read the papers:
+
+- [Setting the Default to Reproducible](http://stodden.net/icerm_report.pdf) 
+by Stodden et al 2013
+
+- [How to Encourage and Publish Reproducible Research](http://jelena.ece.cmu.edu/repository/conferences/07_04_Icassp_Kovacevic.pdf) 
+by Jelena Kovacevic
+
+
+- Create a new directory for this assignment
+- Initialize the directory as a git repository
+- Create a subdirectory `paper`
+- Create a subdirectory `images`
+- Write a paper in markdown
+- Include a script file with the commands to generate
+reports with pandoc
+- Include a `README.md` file describing the project
+- Practice writing good commit messages
+- Don't be afraid of undoing things
+
+The file-structure of your project should look like this:
+```
+project/
+	.gitignore
+	README.md
+	paper/
+		sections/
+			00-abstract.md
+			01-introduction.md
+			02-intermediate.md
+			03-conclusions.md
+		paper.md
+	images/
+		git.png
+		makefile.png
+		markdown.png
+```
