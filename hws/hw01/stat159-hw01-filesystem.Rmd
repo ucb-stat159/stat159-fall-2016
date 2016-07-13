@@ -14,7 +14,7 @@ Use this file to write the shell commands for the following instructions:
 
 - Create a directory `stat159-hw01`
 - Change to the directory `stat159-hw01`
-- Use the command `curl` to download the following text files:
+- Find out how to use the command `curl` to download the following text files:
 	- http://textfiles.com/food/bread.txt
 	- http://textfiles.com/food/btaco.txt
 	- http://textfiles.com/food/1st_aid.txt
@@ -23,6 +23,7 @@ Use this file to write the shell commands for the following instructions:
 	- http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv
 	- http://www.math.uah.edu/stat/data/Fisher.csv
 	- http://web.pdx.edu/~gerbing/data/cars.csv
+- List the contents in your current directory 
 - List the contents in your current directory in long format, 
 displaying the results in alphabetical order
 - Create a directory `data`
