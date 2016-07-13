@@ -43,7 +43,7 @@ project/
 			03-conclusions.md
 		paper.md
 	images/
-		git.png
-		makefile.png
-		markdown.png
+		git-logo.png
+		stat159-logo.png
+		markdown-logo.png
 ```
