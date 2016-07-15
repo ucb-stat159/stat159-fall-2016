@@ -1,0 +1,66 @@
+---
+title: "Lab 1: House Keeping"
+subtitle: "Stat 159, Fall 2016"
+author: "Gaston Sanchez"
+output: html_document
+---
+
+> ### Learning Objectives
+>
+> * =)
+> * :)
+> * ;)
+
+-----
+
+### About Us
+
+- GSI (introduce yourself)
+- Students (introduce yourselves):
+	+ What's your (preferred) name?
+	+ What are you studying?
+	+ What would you like to do when finishing college?
+- The following activity may look weird to most of you, but it can help us tremendously to better remember you.
+- On a piece of scratch paper, please write your name and tell us something _unique!_ about you
+	+ GOOD example: "I speak 5 languages: english, spanish, french, italian, portuguese"
+	+ GOOD example: "I'm one of seven siblings, and the only who has finished high school"
+	+ BORING example: "I think my name is pretty unique"
+	+ BORING example: "I like cats"
+
+
+### Required Software
+
+We are going to be using several tools along this course. Which means that you will have to install the following programs (_if you run into any installation problems google it first or check youtube videos or ask your neighbor; if that doesn't work then ask the GSI or the instructor_):
+
+- __Git__ (for version control)
+	- [Downloads](https://git-scm.com/downloads)
+- __GitHub__ (for project hosting)
+	- You will also need to open an account on [GitHub](https://github.com/) (unless you already have one): [https://github.com/join](https://github.com/join)
+	- Wisely choose your username! (be professional)
+- __pandoc__ (a universal document converter)
+	- [Installing](http://pandoc.org/installing.html)
+- __R__ (statistical & data analysis software)
+	- [Mac OS X](https://cran.r-project.org/bin/macosx/)
+	- [Windows](https://cran.r-project.org/bin/windows/base/)
+	- [Linux](https://cran.r-project.org/bin/linux/)
+- __RStudio__ (IDE for R)
+	- [Downloads](https://www.rstudio.com/products/rstudio/download/)
+- __Tex/LaTeX__ (typesetting system; the installation takes time)
+	- [MacTeX](https://tug.org/mactex/) (for Mac OS X)
+	- [MikTeX](http://miktex.org/download) (for Windows)
+
+
+### Get to know your neighbors
+
+One cornerstone of the course involves __Collaboration__. Among other
+things, there will be three major collaborative tasks:
+
+- In-class presentation (in teams of 4, and based on an assigned reading)
+- 2nd project (in teams of 2)
+- 3rd project (in teams of 4---this is the final project) 
+
+Take some time to introduce yourself to your lab neighbors. Chances are
+that, for one or all of the collaborative projects, you may end up working with them (and hopefully becoming _BFF's_ too).
+
+-----
+
