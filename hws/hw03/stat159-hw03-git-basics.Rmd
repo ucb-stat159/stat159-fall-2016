@@ -39,7 +39,7 @@ project/
 		sections/
 			00-abstract.md
 			01-introduction.md
-			02-intermediate.md
+			02-discussion.md
 			03-conclusions.md
 		paper.md
 	images/
