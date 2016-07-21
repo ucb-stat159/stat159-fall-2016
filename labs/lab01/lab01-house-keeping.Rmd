@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: House Keeping"
+title: "Lab 1: Housekeeping"
 subtitle: "Stat 159, Fall 2016"
 author: "Gaston Sanchez"
 output: html_document
