@@ -15,7 +15,7 @@ output: html_document
 
 -----
 
-### Some house keeping
+### Some housekeeping
 
 - If you work with a Mac, you're good to go.
 - If you work with a Windows, make sure you have installed __git-bash__: 
