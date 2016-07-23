@@ -1,0 +1,80 @@
+---
+title: "Project 1 - Individual Essay"
+subtitle: "Stat 159, Fall 2016, Prof. Sanchez"
+author: "Your Name"
+output: html_document
+---
+
+
+### Your first reproducible project
+
+This project assignment involves writing a paper/document about the tools
+we've covered so far. You have to describe (in your own words) how you work 
+on your assignment (tell us about your experience):
+
+- Explain what is a Makefile and its role in the RR workflow
+- Explain what is Git, and its role in the RR workflow
+- Explain what is pandoc
+- Explain what is markdown
+- Write a narrative about how you worked out this project
+- What resources you used to get the job done?
+- What were the "easy" parts?
+- What were the challenging parts?
+- What things you were stuck with?
+- Did you work with and/or get help from someone else?
+- How much time did it take?
+
+
+### Instructions
+
+- Create a new directory
+- Add a `.gitignore` file
+- Initialize the directory with Git
+- Create the file structure:
+
+```
+project/
+	.gitignore
+	README.md
+	paper/
+		sections/
+			00-abstract.md
+			01-introduction.md
+			02-intermediate.md
+			03-conclusions.md
+		paper.md
+	images/
+		git-logo.png
+		stat159-logo.png
+		markdown-logo.png
+	Makefile
+```
+
+- Create a remote repository in your Github account
+- Push your project to github
+- Practice writing good commit messages
+- Don't be afraid of undo things
+
+
+After running `make`, your project should look like this:
+
+```
+project/
+	.gitignore
+	README.md
+	paper/
+		sections/
+			00-abstract.md
+			01-introduction.md
+			02-intermediate.md
+			03-conclusions.md
+		paper.md
+		paper.html  (output)
+		paper.pdf  (output)
+	images/
+		git-logo.png
+		stat159-logo.png
+		markdown-logo.png
+	Makefile
+```
+
