@@ -1,9 +1,12 @@
 ---
-title: "HW01 - Stat 159, Fall 2016"
+title: "HW01 - Basic bash commands"
+subtitle: "Stat 159, Fall 2016, Prof. Sanchez"
+author: "Your Name"
 output: html_document
 ---
 
 > ### Objectives
+>
 > - Work with shell commands
 > - Track your commands
 
