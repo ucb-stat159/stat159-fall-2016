@@ -1,9 +1,12 @@
 ---
-title: "HW02 - Stat 159, Fall 2016"
+title: "HW02 - Markdown and pandoc"
+subtitle: "Stat 159, Fall 2016, Prof. Sanchez"
+author: "Your Name"
 output: html_document
 ---
 
 > ### Objectives
+>
 > - Work with markdown
 > - Work with pandoc
 
@@ -55,4 +58,4 @@ Try converting your markdown file to pdf (you need to have latex installed!):
 pandoc stat159-hw02-gaston-sanchez.md --latex-engine=xelatex -o stat159-hw02-gaston-sanchez.pdf
 ```
 
-Submit your both your `.Rmd` and `.html` documents to bCourses
+Submit both your `.md` and `.html` documents to bCourses
