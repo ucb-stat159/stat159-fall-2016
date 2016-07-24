@@ -11,17 +11,12 @@ output: html_document
 > - Work with pandoc
 
 
-Read the papers:
-
-- [Setting the Default to Reproducible](http://stodden.net/icerm_report.pdf) 
+Read the paper 
+[Setting the Default to Reproducible](http://stodden.net/icerm_report.pdf) 
 by Stodden et al 2013
 
-- [How to Encourage and Publish Reproducible Research](http://jelena.ece.cmu.edu/repository/conferences/07_04_Icassp_Kovacevic.pdf) 
-by Jelena Kovacevic
 
-
-Write an essay about reproducibility, and how to encourage and make 
-it a standard. 
+Write an essay about how to encourage reproducibility and how to make it a standard. 
 Name your file `stat159-hw02-first-last.md` (where "first" and "last" are
 your first and last names: e.g. `stat159-hw02-gaston-sanchez.md`). 
 Write your essay in markdown, and make sure to include the following elements:
