@@ -18,10 +18,6 @@ Read the papers:
 - [Setting the Default to Reproducible](http://stodden.net/icerm_report.pdf) 
 by Stodden et al 2013
 
-- [How to Encourage and Publish Reproducible Research](http://jelena.ece.cmu.edu/repository/conferences/07_04_Icassp_Kovacevic.pdf) 
-by Jelena Kovacevic
-
-
 - Create a new directory for this assignment
 - Initialize the directory as a git repository
 - Create a subdirectory `paper`
