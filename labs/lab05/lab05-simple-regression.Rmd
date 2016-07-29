@@ -8,7 +8,7 @@ output: html_document
 > ### Learning Objectives
 >
 > * Introduction to Rmd files
-> * Understand: knitr and rmarkdown packages
+> * Basics of knitr and rmarkdown packages
 > * Use the command `Rscript` from the command line
 > * Write a simple Makefile 
 
@@ -27,16 +27,16 @@ Chapter 3, Section 3.1 Simple Linear Regression.
 - Data set: Advertising data
 - Source: [http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv](http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv)
 
-The directory `lab05` contains an auxiliary R script that can help you
-walk through the basic regression analysis.
+The directory `lab05` contains an auxiliary R script, `simple-regression.R`, 
+that can help you walk through the basic regression analysis.
 
 
 ### Preliminary steps
 
 - Open or download a copy of the book's pdf file.
-- Take a look at the book's section 3.1 (pages 61-71).
+- If you haven't, take a look at the book's section 3.1 (pages 61-71).
 - You will be working on the regression model of equation 3.1 (page 61).
-- Create a new directory for this lab practice.
+- Create a new directory for this lab practice: `lab-simple-regression`.
 - `cd` into the directory of this lab.
 - Download a copy of the data file:
   - `curl -O http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv`
@@ -51,16 +51,21 @@ In your `.Rmd` file, open code chunks and write code to perform the
 tasks listed below. Learn how to __knit__ an `.Rmd` document, and become
 familiar with the chunk options.
 
-__Import Data.__ Read the dataset in R, and inspect the data frame. Check its structure, dimensions, take a peek, etc.
+__Import Data.__ 
+Read the dataset in R, and inspect the data frame. Check 
+its structure, dimensions, take a peek, etc.
 
-__Exploratory Analysis.__ Get a histogram and boxplot, as well as summary statistics for the variables `TV` and `Sales`. Does it make sense to fit a
-regression line between `TV` and `Sales`?
+__Exploratory Analysis.__ 
+Get a histogram and boxplot, as well as summary statistics for the variables 
+`TV` and `Sales`. Does it make sense to fit a regression line between `TV` and `Sales`?
 
 __Regression Model.__
 Use the function `lm()` to regress `Sales` onto `TV` by fitting the model:
+
 $$
 Sales = \beta_0 + \beta_1 \times TV
 $$
+
 Inspect the contents of the object `"lm"`. It contains things like
 `coefficients`, `residuals`, `fitted.values`, etc.
 Confirm that the regression coefficients are: $\beta_0$ = 7.03, 
@@ -76,19 +81,21 @@ Use the `residuals` of the `"lm"` object and write code to calculate the RSS
 (Residual Sum of Squares). Use the RSS formula of eq. 3.16 (see page 69).
 
 __Residual Standard Error.__
-Write code to calculate the RSE (Residual Standard Error)
-according to the formula of eq. 3.15 in page 69. (RSE is an estimate of the variance $\sigma^2$).
+Write code to calculate the RSE (Residual Standard Error) according to the 
+formula of eq. 3.15 in page 69. (RSE is an estimate of the variance $\sigma^2$).
 
 __Standard Error of Regression Coefficients.__
 Write code to calculate the Standard Errors (SE) for the regression 
-coefficients (see eq. 3.8, page 66).
+coefficients (see eq. 3.8, page 66). If you need so, you can compare your 
+results with the table of coefficients from the `summary()` method.
 
 __Confidence Interval for Coefficients.__
 Write code to calculate the confidence intervals (see eqs. 3.10 and 3.11, 
 page 66), of the regression coefficients. More specifically, compute a 95% 
 confidence interval for $\beta_0$ and confirm its value: [6.130, 7.935].
 Likewise, compute a 95% confidence interval for $\beta_1$ and confirm 
-its value: [0.042, 0.053].
+its value: [0.042, 0.053]. If you ned so, you can compare your results
+with the results from the function `confint()`.
 
 
 #### Reproduced Results
@@ -102,6 +109,8 @@ In summary, you should reproduce the following material from section 3.1:
 - 95% Confidence Interval for $\beta_1$ (page 66)
 - Residual Standard Error _RSE_ (page 69)
 - R-square statistic (page 69)
+
+-----
 
 
 ### Running R scripts from the command line
@@ -125,7 +134,31 @@ Now that you know one way to run R scripts from the command line, write a
 Makefile for this lab. You should be able to simply run `make`
 from the command line, and get the html document.
 
-Include a `clean` rule to remove the compiled html document.
+Include a `clean` rule in your Makefile to remove the compiled html document.
+
+
+### File-structure
+
+Your lab's directory should have the following file structure:
+
+```
+lab-simple-regression/
+	Advertising.csv
+	simple-regression.Rmd
+	Makefile
+	README.md
+```
 
 
 -----
+
+## Resources
+
+- [knitr reference card](https://cran.r-project.org/web/packages/knitr/vignettes/knitr-refcard.pdf) by Yihui Xie
+- [R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf) by RStudio
+- [R Markdown Reference Guide](https://www.rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf) by RStudio
+- [A Beginner's Tutorial for knitr](http://joshldavis.com/2014/04/12/beginners-tutorial-for-knitr/) by Josh Davis
+- [Simple Linear Regression](http://scc.stat.ucla.edu/page_attachments/0000/0139/reg_1.pdf) by Denise Ferrari and Tiffany Head
+
+-----
+
