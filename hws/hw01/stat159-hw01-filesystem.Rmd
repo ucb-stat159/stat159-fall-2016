@@ -1,7 +1,7 @@
 ---
 title: "HW01 - Basic bash commands"
-subtitle: "Stat 159, Fall 2016, Prof. Sanchez"
-author: "Your Name"
+subtitle: "Stat 159, Fall 2016"
+author: "Gaston Sanchez"
 output: html_document
 ---
 
@@ -13,7 +13,7 @@ output: html_document
 
 Create a text file and name it like `stat159-hw01-first-last.txt` (where "first" 
 and "last" are your first and last names: e.g. `stat159-hw01-gaston-sanchez.txt`).
-Use this file to write the shell commands for the following instructions:
+Use the text file to write the shell commands for the following instructions:
 
 - Create a directory `stat159-hw01`
 - Change to the directory `stat159-hw01`
@@ -22,27 +22,30 @@ Use this file to write the shell commands for the following instructions:
 	- http://textfiles.com/food/btaco.txt
 	- http://textfiles.com/food/1st_aid.txt
 	- http://textfiles.com/food/beesherb.txt
-- Use `curl` to download the following csv files:
+- Use the command `curl` to download the following csv files:
 	- http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv
 	- http://www.math.uah.edu/stat/data/Fisher.csv
 	- http://web.pdx.edu/~gerbing/data/cars.csv
+- Print your working (i.e. current) directory
 - List the contents in your current directory 
 - List the contents in your current directory in long format, 
 displaying the results in alphabetical order
 - Create a directory `data`
 - Change to the directory `data`
-- Create a directory `txt_files`
-- Create a directory `csv_files`
-- Move the downloaded files with extension `.txt` to the directory `txt_files`
-- Move the downloaded files with extension `.csv` to the directory `csv_files`
+- Create a directory `txt-files`
+- Create a directory `csv-files`
+- Move the downloaded files with extension `.txt` to the directory `txt-files`
+- Move the downloaded files with extension `.csv` to the directory `csv-files`
 - Go back to the parent directory `stat159-hw01`
 - Create a directory `copies`
-- Copy all `.txt` and `.csv` files in the directory `copies`
+- Copy all the `.txt` files in the directory `copies`
+- Copy all the `.csv` files in the directory `copies`
 - Change to the directory `copies`
 - Rename the file `Fisher.csv` as `iris.csv`
 - Rename the file `bread.txt` as `bread-recipe.txt`
-- Change to parent directory (i.e. `stat159-hw01`)
-- Delete the directory `copies`
-- List the contents of the directory `txt_files` displaying the results
+- Change to the parent directory (i.e. `stat159-hw01`)
+- Rename the directory `copies` as `copy-files`
+- Delete the directory `copy-files`
+- List the contents of the directory `txt-files` displaying the results
 in reverse (alphabetical) order
 

@@ -1,7 +1,7 @@
 ---
 title: "HW03 - Git and github basics"
-subtitle: "Stat 159, Fall 2016, Prof. Sanchez"
-author: "Your Name"
+subtitle: "Stat 159, Fall 2016"
+author: "Gaston Sanchez"
 output: html_document
 ---
 
