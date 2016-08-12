@@ -40,7 +40,7 @@ project/
 		sections/
 			00-abstract.md
 			01-introduction.md
-			02-intermediate.md
+			02-discussion.md
 			03-conclusions.md
 		paper.md
 	images/
@@ -66,11 +66,11 @@ project/
 		sections/
 			00-abstract.md
 			01-introduction.md
-			02-intermediate.md
+			02-discussion.md
 			03-conclusions.md
 		paper.md
-		paper.html  (output)
-		paper.pdf  (output)
+		paper.html
+		paper.pdf
 	images/
 		git-logo.png
 		stat159-logo.png
