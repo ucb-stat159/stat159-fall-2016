@@ -33,9 +33,9 @@ During the first hour of the lab, work on the first 3 sections of the workshop
 [The Unix Shell](http://swcarpentry.github.io/shell-novice/) 
 by _Software Carpentry_
 
-1. [Introducing the Shell](http://swcarpentry.github.io/shell-novice/00-intro.html)
-2. [Files and Directories](http://swcarpentry.github.io/shell-novice/01-filedir.html)
-3. [Creating Things](http://swcarpentry.github.io/shell-novice/02-create.html)
+1. [Introducing the Shell](http://swcarpentry.github.io/shell-novice/01-intro/)
+2. [Files and Directories](http://swcarpentry.github.io/shell-novice/02-filedir/)
+3. [Creating Things](http://swcarpentry.github.io/shell-novice/03-create/)
 
 -----
 
