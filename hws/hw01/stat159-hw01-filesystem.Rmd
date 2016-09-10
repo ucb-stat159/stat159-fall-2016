@@ -2,7 +2,7 @@
 title: "HW01 - Basic bash commands"
 subtitle: "Stat 159, Fall 2016"
 author: "Gaston Sanchez"
-output: html_document
+output: pdf_document
 ---
 
 > ### Objectives
@@ -48,4 +48,9 @@ displaying the results in alphabetical order
 - Delete the directory `copy-files`
 - List the contents of the directory `txt-files` displaying the results
 in reverse (alphabetical) order
+
+
+## What to turn in
+
+Submit your text file (containing the bash commands) to bCourses
 
