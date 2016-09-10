@@ -25,13 +25,13 @@ The purpose of Git is to __keep track of changes that you make to files and dire
 Work on the [Version Control with Git](http://swcarpentry.github.io/git-novice/) 
 workshop by _Software Carpentry_
 
-1. [Automated Version Control](http://swcarpentry.github.io/git-novice/01-basics.html)
-2. [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup.html)
-3. [Creating a Repository](http://swcarpentry.github.io/git-novice/03-create.html)
-4. [Tracking Changes](http://swcarpentry.github.io/git-novice/04-changes.html)
-5. [Exploring History](http://swcarpentry.github.io/git-novice/05-history.html)
-6. [Ignoring Things](http://swcarpentry.github.io/git-novice/06-ignore.html)
-7. [Remotes in GitHub](http://swcarpentry.github.io/git-novice/07-github.html)
+1. [Automated Version Control](http://swcarpentry.github.io/git-novice/01-basics/)
+2. [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup/)
+3. [Creating a Repository](http://swcarpentry.github.io/git-novice/03-create/)
+4. [Tracking Changes](http://swcarpentry.github.io/git-novice/04-changes/)
+5. [Exploring History](http://swcarpentry.github.io/git-novice/05-history/)
+6. [Ignoring Things](http://swcarpentry.github.io/git-novice/06-ignore/)
+7. [Remotes in GitHub](http://swcarpentry.github.io/git-novice/07-github/)
 
 
 -----
