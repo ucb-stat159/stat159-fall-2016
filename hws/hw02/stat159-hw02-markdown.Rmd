@@ -26,16 +26,14 @@ Write your essay in markdown, and make sure to include the following elements:
 3. words in bold
 4. words in both italics and bold
 5. links (for urls)
-6. reference style links (cross-links)
-7. links for images
-8. unordered lists
-9. ordered lists
-10. lists with subitems
-11. horizontal rules 
-12. table
-13. blockquotes
-14. code blocks
-15. inline code
+6. links for images
+7. unordered lists
+8. ordered lists
+9. lists with subitems
+10. horizontal rules 
+11. table
+12. blockquotes
+13. code blocks
 
 
 ### Convert your document into html
