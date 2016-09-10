@@ -3,11 +3,12 @@ RMDS = $(wildcard */*)
 
 # output html files
 HTMLS = $(patsubst %.Rmd, %.html, $(RMDS))
+PDFS = $(patsubst %.Rmd, %.pdf, $(RMDS))
 
 .PHONY: clean
 
 
-all: $(HTMLS)
+all: $(PDFS)
 
 # Run every Rmd file
 %.html: %.Rmd
@@ -15,4 +16,4 @@ all: $(HTMLS)
 
 
 clean:
-	rm -rf $(HTMLS)
+	rm -rf $(PDFS)
