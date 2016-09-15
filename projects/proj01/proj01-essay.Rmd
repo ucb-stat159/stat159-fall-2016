@@ -1,67 +1,62 @@
 ---
 title: "Project 1 - Individual Essay"
 subtitle: "Stat 159, Fall 2016, Prof. Sanchez"
-author: "Your Name"
-output: html_document
+output: pdf_document
+fontsize: 11pt
+urlcolor: blue
 ---
 
 
-### Your first reproducible project
+## Your first reproducible project
 
-This project assignment involves writing a paper/document about the tools
-we've covered so far. You have to describe (in your own words) how you work 
-on your assignment (tell us about your experience):
+The goal of this project assignment is to practice with the computational tools
+covered so far in the course: bash, markdown, pandoc, git, github, Make, and
+a text editor of your preference.
 
-- Explain what is a Makefile and its role in the RR workflow
-- Explain what is Git, and its role in the RR workflow
-- Explain what is pandoc
-- Explain what is markdown
-- Write a narrative about how you worked out this project
+Specifically, we want you to write a paper about such tools. In other words, 
+you have to write a paper about writing the paper, commenting on the tools you 
+are using to accomplish this task, and what is the role that each tool plays in 
+this process.
+
+You have to describe---in your own words---how you work on this assignment 
+(tell us about your experience), commenting on the following aspects:
+
+- Explain what is a Makefile and the role it plays in this reproducible workflow.
+- Explain what is Git, and its role in this reproducible workflow.
+- Explain what is GitHub, and its role in this project.
+- Explain what is pandoc, and comment on its usefulness (or advantages).
+- Explain what is Markdown.
 - What resources you used to get the job done?
 - What were the "easy" parts?
 - What were the challenging parts?
 - What things you were stuck with?
-- Did you work with and/or get help from someone else?
+- What was the most time consuming part?
+- Did you work with and/or get help from someone else? If yes, in what manner?
 - How much time did it take?
 
+If it helps, pretend that you have to write a blog post about using the tools
+we've seen so far, explaining the role they play. Imagine that the target
+audience are other undergrad students in statistics (or similar fields). Keep
+in mind that the paper you write may become a tutorial: a document that you may
+read later in the future in order to remember how you did something 
+(e.g. write a Makefile).
 
-### Instructions
 
-- Create a new directory
-- Add a `.gitignore` file
-- Initialize the directory with Git
-- Create the file structure:
+## Instructions
+
+What you need to "turn in" is basically the github repository of this project.
+Add us (i.e. the instructor and the GSI) as collaborators in GitHub. Our 
+usernames are: `gastonstat` and `SindhujaJeyabal`
+
+The final file-structure of your project should look like this:
+
+\newpage
 
 ```
-project/
+stat159-fall2016-project1/
 	.gitignore
 	README.md
-	paper/
-		sections/
-			00-abstract.md
-			01-introduction.md
-			02-discussion.md
-			03-conclusions.md
-		paper.md
-	images/
-		git-logo.png
-		stat159-logo.png
-		markdown-logo.png
 	Makefile
-```
-
-- Create a remote repository in your Github account
-- Push your project to github
-- Practice writing good commit messages
-- Don't be afraid of undo things
-
-
-After running `make`, your project should look like this:
-
-```
-project/
-	.gitignore
-	README.md
 	paper/
 		sections/
 			00-abstract.md
@@ -70,11 +65,45 @@ project/
 			03-conclusions.md
 		paper.md
 		paper.html
-		paper.pdf
 	images/
 		git-logo.png
-		stat159-logo.png
+		github-logo.png
 		markdown-logo.png
-	Makefile
+		pandoc-logo.png
+		stat159-logo.png
 ```
+
+- `README.md` is a file (written in markdown) describing the project's structure, 
+author's name, and creative commons license of your choice. 
+See [https://creativecommons.org/choose/](https://creativecommons.org/choose/)
+for more info about these licenses.
+- The content of the `README.md` file should allow any "competent" user to 
+follow the instructions and be able to reproduce your paper.
+- The file `Makefile` should contain two targets: the html paper `paper.html`,
+and a `clean` _phony_ target that removes the html file.
+- The way you should write your paper is to break down its structure in four 
+(or more) sections, each section written in a separate `.md` file 
+(do NOT use `.Rmd` files). These markdown files are essentially the ONLY files 
+that you should be editing (not the `paper.md` file):
+    + `00-abstract.md`
+    + `01-introduction.md`
+    + `02-discussion.md`
+    + `03-conclusions.md`
+- The file `paper.md` should be assembled from those `.md` files in `sections/`. 
+This file must NOT be inside `sections/`.
+- The file `paper.html` is the output from running pandoc on `paper.md`, via
+the `Makefile`.
+- The content of the paper should not exceed 20,000 characters. This is 
+approximately six pages, single spaced in 12 point font, when pasted in 
+a typical word processor (e.g. MS Word).
+- The `.png` image files are the files that come in the `images` folder 
+of this project's github repo. You will have to include those images somewhere 
+in your `.md` files.
+
+
+## Miscelanea
+
+- Practice writing good commit messages
+- Commit soon and often (commits are cheap!)
+- Don't be afraid of undoing things
 
