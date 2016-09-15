@@ -20,7 +20,8 @@ output: html_document
 	+ What's your (preferred) name?
 	+ What are you studying?
 	+ What would you like to do when finishing college?
-- The following activity may look weird to most of you, but it can help us tremendously to better remember you.
+- The following activity may look weird to most of you, but it can help us 
+tremendously to better remember you.
 - On a piece of scratch paper, please write your name and tell us something _unique!_ about you
 	+ GOOD example: "I speak 5 languages: english, spanish, french, italian, portuguese"
 	+ GOOD example: "I'm one of seven siblings, and the only who has finished high school"
@@ -30,7 +31,10 @@ output: html_document
 
 ### Required Software
 
-We are going to be using several tools along this course. Which means that you will have to install the following programs (_if you run into any installation problems google it first or check youtube videos or ask your neighbor; if that doesn't work then ask the GSI or the instructor_):
+We are going to be using several tools along this course. Which means that you 
+will have to install the following programs. If you run into any installation 
+problems google it first or check youtube videos or ask your neighbor; if that 
+doesn't work then ask the GSI or the instructor:
 
 - __Git__ (for version control)
 	- [Downloads](https://git-scm.com/downloads)
