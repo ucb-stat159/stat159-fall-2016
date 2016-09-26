@@ -148,4 +148,20 @@ form of a paper with the following sections:
 
 Make sure all the images and tables have captions.
 
-What you need to "turn in" is basically the github repository of this project.
+A minimalis sample of a report is in HW02's folder (in the github repo): see 
+file `report.pdf`. You report must be longer.
+
+
+## Grading
+
+In addition to checking whehter you meet all the listed project requirements, 
+for this and subsequente assignments, we will evaluate the following core 
+competencies of your reports:
+
+- Computation: Perform computations correctly.
+- Analysis: Carry out analysis appropriate for data and context.
+- Synthesis: Identify key features of the analysis, and interpret results.
+- Visual presentation: communicate findings graphically clearly.
+- Verbal: communicate findings in writing clearly, precisely and concisely.
+
+What you need to "turn in" is basically the __public__ github repository of this project---don't use a private repo (keep in mind _Open Science_).
