@@ -110,10 +110,11 @@ to generate the following files:
     a `"regression"` object---via `lm()`---as well as the summary of such 
     regression object---via `summary()`. This script also produces the 
     scatterplot with the regression line. The R objects from the regression
-    analysis are saved in the file `regession.RData`. In turn, the scatterplot
+    analysis are saved in the file `regression.RData`. In turn, the scatterplot
     is saved in both PNG and PDF formats.
 - Data Files:
-    + `Advertising.csv` is the main data set.
+    + `Advertising.csv` is the main data set. This file is downloaded from
+    `http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv`.
     + `eda-output.txt` is a text file containing the summary statistics of
     `TV` and `Sales`. This file should be produced via `sink()` from the
     `eda-script.R` file.
