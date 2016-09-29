@@ -38,7 +38,7 @@ __Mindset:__
 To generate the report, you should use an R markdown file (`.Rmd`). Because
 you are going to be using a `Makefile` to automate all the workflow, you may
 need to learn how to run R from the command line: how to run R scripts, how
-render Rmd files into PDF or HTML format, etc.
+to render Rmd files into PDF or HTML format, etc.
 I've created a tutorial on how to run R in non-interactive mode:
 
 [https://github.com/gastonstat/tutorial-R-noninteractive](https://github.com/gastonstat/tutorial-R-noninteractive)
@@ -70,8 +70,11 @@ stat159-fall2016-hw02/
 	  regression-script.R
 	images/
 		histogram-sales.png
+		histogram-sales.pdf
 		histogram-tv.png
+		histogram-tv.pdf
 		scatterplot-tv-sales.png
+		scatterplot-tv-sales.pdf
 	report/
 		report.Rmd
 		report.pdf
@@ -100,11 +103,15 @@ to generate the following files:
 
 - Code scripts:
     + `eda-script.R` reads in the `Advertising.csv` data set, and computes 
-    summary statistics and histograms of `TV` and `Sales`.
-    + `regression-script.R` reads in the `Advertising.csv` data set and computes
+    summary statistics and histograms of `TV` and `Sales`. The summary
+    statistics should be clearly labeled, and will be saved in a file 
+    `eda-output.txt`. The charts are saved in both PNG and PDF formats.
+    + `regression-script.R` reads in the `Advertising.csv` data set, and computes
     a `"regression"` object---via `lm()`---as well as the summary of such 
     regression object---via `summary()`. This script also produces the 
-    scatterplot with the regression line.
+    scatterplot with the regression line. The R objects from the regression
+    analysis are saved in the file `regession.RData`. In turn, the scatterplot
+    is saved in both PNG and PDF formats.
 - Data Files:
     + `Advertising.csv` is the main data set.
     + `eda-output.txt` is a text file containing the summary statistics of
@@ -114,20 +121,21 @@ to generate the following files:
     objects obtained when running `regression-script.R`. This file should be
     produced via `save()` from the `regression-script.R` file.
 - Image files:
-    + `histogram-tv.png` contains the histogram for `TV`. This is
-    an output of `eda-script.R`.
-    + `histogram-sales.png` contains the histogram for `Sales`. 
-    This is an output of `eda-script.R`.
-    + `scatterplot-tv-sales.png` contains the chart of the scatterplot between
-    `TV` and `Sales`, with the fitted regression line. This is an output of
-    `regression-script.R`.
+    + `histogram-tv.png` and `histogram-tv.pdf` contain the histogram for `TV`. 
+    These files are an output of `eda-script.R`.
+    + `histogram-sales.png` and `histogram-sales.pdf` contain the histogram for 
+    `Sales`. These files are an output of `eda-script.R`.
+    + `scatterplot-tv-sales.png` and `scatterplot-tv-sales.pdf` contain the 
+    chart of the scatterplot between `TV` and `Sales`, with the fitted 
+    regression line. These files are an output of `regression-script.R`.
 - Report files:
     + `report.Rmd` is the source Rmd document used to generate the pdf report.
     It reads in the objects of `regression.RData`, produces the tables, and 
     includes the image in `scatterplot-tv-sales.png`.
     + `report.pdf` is the generated pdf file from the Rmd document. 
     Alternatively you could have a `report.html` file. Or even better,
-    you can try to have both types of output: pdf and html.
+    you can try to have both types of output: pdf and html. It is not mandatory
+    to have both types of files.
 - README files:
     + Your project should include one readme file at the top level. In addition,
     folders `data/` and `code/` should also contain their own readme files
@@ -148,13 +156,13 @@ form of a paper with the following sections:
 
 Make sure all the images and tables have captions.
 
-A minimalis sample of a report is in HW02's folder (in the github repo): see 
+A minimalist sample of a report is in HW02's folder (in the github repo): see 
 file `report.pdf`. You report must be longer.
 
 
 ## Grading
 
-In addition to checking whehter you meet all the listed project requirements, 
+In addition to checking whether you meet all the listed project requirements, 
 for this and subsequente assignments, we will evaluate the following core 
 competencies of your reports:
 
