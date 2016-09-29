@@ -19,7 +19,7 @@ More specifically, the idea is to reproduce the analysis from Section 3.1
 (pages 59 to 71), of _Chapter 3. Linear Regression_,
 from the book "An Introduction to Statistical Learning" (by James et al):
 
-[http://www-bcf.usc.edu/~gareth/ISL/data.html](http://www-bcf.usc.edu/~gareth/ISL/data.html)
+[http://www-bcf.usc.edu/~gareth/ISL/](http://www-bcf.usc.edu/~gareth/ISL/)
 
 The data set is in the `Advertising.csv` file available here:
 
