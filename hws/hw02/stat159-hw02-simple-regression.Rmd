@@ -141,6 +141,9 @@ to generate the following files:
     + Your project should include one readme file at the top level. In addition,
     folders `data/` and `code/` should also contain their own readme files
     with a brief description of the files in such directories.
+    + In the readme file inside `data/` don't forget to give credit to 
+    Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani, and 
+    include a link to the source of `Advertising.csv`. 
     
 
 ## Report
