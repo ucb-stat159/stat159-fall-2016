@@ -317,5 +317,7 @@ competencies of your reports:
 - Don't underestimate README files: use them for your benefit; these are the 
 files that you will look at months later when you come back to the project
 trying to remember the things you did.
+- Avoid hard coding numeric values in your Rmd file. Instead, use 
+__inline code__.
 - You can discuss the various tasks of the HW with other students,
 but you must write your own code.
