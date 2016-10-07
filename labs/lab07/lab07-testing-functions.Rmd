@@ -15,9 +15,9 @@ urlcolor: blue
 
 ## R package `"testthat"`
 
-`"testthat"` is one the packages in R that helps you write tests for your functions. One of the main references is the paper 
+`"testthat"` is one of the packages in R that helps you write tests for your functions. One of the main references is the paper 
 _testthat: Get Started with Testing_ by Hadley Wickham (see link below). 
-This paper clearly describes the philisoply and workflow of `"testthat". But
+This paper clearly describes the philisoply and workflow of `"testthat"`. But
 keep in mind that since the introduction of the package, many more functions 
 haven been added to it.
 
@@ -68,6 +68,7 @@ haven been added to it.
 - To start the practice, create a new directory, e.g. `test-that`
 - `cd` into the directory `test-that/`
 - Create two subdirectories: `functions` and `tests`
+- Sample content is in the folder `test-that/` of this lab
 
 
 ## Functions
