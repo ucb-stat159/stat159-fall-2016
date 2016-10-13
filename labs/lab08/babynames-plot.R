@@ -6,13 +6,13 @@ library(ggplot2)
 library(stringr)
 
 # name to explore (change this value)
-name <- "Gaston"
+myname <- "Gaston"
 
 # we could use str_to_title()
 #myname <- str_to_title("gaston")
 
 # subset babynames
-names <- subset(babynames, name == name)
+names <- subset(babynames, name == myname)
 
 # quick inspection
 head(names)

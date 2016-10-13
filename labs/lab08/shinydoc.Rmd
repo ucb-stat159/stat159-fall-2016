@@ -14,8 +14,8 @@ library(stringr)
 Please select a name to explore.
 
 ```{r echo=FALSE}
-textInput(inputId = "name", label = "Name:", value = "Gaston")
-names <- reactive(subset(babynames, name == input$name))
+textInput(inputId = "myname", label = "Name:", value = "Gaston")
+names <- reactive(subset(babynames, name == input$myname))
 
 # another option
 #names <- reactive(subset(babynames, name == str_to_title(input$name)))
@@ -32,15 +32,15 @@ renderPlot(
 )
 ```
 
-`r renderText(input$name)` was more popular than ever in 
+`r renderText(input$myname)` was more popular than ever in 
 `r renderText(names()$year[which.max(names()$n)])`. 
-That year there were `r renderText(names()$n[which.max(names()$n)])` babies named `r renderText(input$name)`.
-So far, `r renderText(sum(names()$n))` people have been named `r renderText(input$name)`. 
+That year there were `r renderText(names()$n[which.max(names()$n)])` babies named `r renderText(input$myname)`.
+So far, `r renderText(sum(names()$n))` people have been named `r renderText(input$myname)`. 
 
 `r hr()`
 
 Here's an example of `renderPrint()`
-`r renderPrint(paste('Selected name is:', input$name))`
+`r renderPrint(paste('Selected name is:', input$myname))`
 
 `r hr()`
 
